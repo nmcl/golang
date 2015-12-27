@@ -13,5 +13,17 @@ func main () {
 		sep = " "
 	}
 
+	fmt.Print("For loop ... ")
+	fmt.Println(s)
+
+	s = ""
+	sep = ""
+
+	for _, arg := range os.Args[1:] {
+		s += sep + arg
+		sep = " "
+	}
+
+	fmt.Print("Range ... ")
 	fmt.Println(s)
 }
