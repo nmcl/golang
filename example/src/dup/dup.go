@@ -6,6 +6,10 @@ import (
        "bufio"
 )
 
+/*
+ * Print lines that appear more than once.
+ */
+
 func main () {
      counts := make(map[string]int)
      input := bufio.NewScanner(os.Stdin)
