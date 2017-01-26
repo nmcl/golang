@@ -1,1 +1,3 @@
 Go transactions using Narayana REST-TX. Requires Narayana server to be running as per ...
+
+Or there really must be a way of calling "locally".
